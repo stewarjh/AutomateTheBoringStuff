@@ -24,8 +24,6 @@ def getAnswer(answerNumber):
         return (getAnswer(random.randint(1,9)))
     elif answerNumber == 7:
         return 'My reply is no'
-
-        return (getAnswer(random.randint(1,9)))
     elif answerNumber == 8:
         return 'Outlook not so good'
     elif answerNumber == 9:

@@ -4,3 +4,4 @@
 # git commit -m "Some message Here"     (prep to push)
 # git push origin master                (push file out)
 # git pull                              (update all repo)
+# git rm <filename>                     (remove a file you hjave added and not commited are pushed)
