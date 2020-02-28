@@ -18,6 +18,23 @@
 
 #WORKING WITH FILES
 
-# os.chdir      = change working directory
-# os.getcwd()   = gets your current working directory
-# os.joinpath() = joins multiple folders, files together in one string to work across multiple platforms 
+
+# import os 
+# os.chdir                      = change working directory
+# os.getcwd()                   = gets your current working directory
+# os.joinpath()                 = joins multiple folders, files together in one string to work across multiple platforms 
+# absoulte file path            = beign with route folder c:\\
+# relative file path            = uses os.chdir or does not start with the root folder
+# .                             = this folder
+# ..                            = the paren folder move one up file path
+# os.path.abspath('filename')   = will pull up files absolute path
+# os.path.isabs('filepath')     = will tell if filepath is absolute
+# os.path.exist                 = tells you if a path is TRue or False
+# os.path.isfile                = tells you if file
+# os.path.isdir                 = will tell you if its the directory
+# os.path.getsize('filename')   = return size of file in bytes as a int()
+# os.listdir('filepath')        = pull up files in folder as a list
+# os.makedir()                  = can be used to make folders 
+
+
+
