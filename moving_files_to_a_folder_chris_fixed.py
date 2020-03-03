@@ -1,6 +1,7 @@
 # Move File Types From One Folder to Another
 import os, shutil
 
+
 # Folder that file or files are located.
 def getFromFolder():
 	return str(input('Where do you want to get the file from?\n'))
@@ -23,17 +24,17 @@ def fileName():
 
 # Selects folder you want to move.
 def subFolderName():
-    return str(input('Enter Selected folder name:\n'))
+		return str(input('Enter Selected folder name:\n'))
 
 
 # Moved folders location.
 def moveFolderTo():
-    return str(input('Enter folder destination:\n'))
+	return str(input('Enter folder destination:\n'))
 
 
 # Moves a folder to another location
 def moveFolder(selectFolder, moveFolder):
-    shutil.move(selectFolder, moveFolder,)
+	shutil.move(selectFolder, moveFolder,)
 
 
 # Moves file or files of the same type to another folder.
@@ -58,9 +59,9 @@ def moveFileName(fromFolder, toFolder, thisFile):
 
 # Commands to move folder
 def appfolderMove():
-    selectFolder = subFolderName()
-    folderMoveTo = moveFolderTo()
-    moveFolder(selectFolder, folderMoveTo)
+	selectFolder = subFolderName()
+	folderMoveTo = moveFolderTo()
+	moveFolder(selectFolder, folderMoveTo)
 
 
 # Used to call moveFileType
